@@ -77,7 +77,7 @@ Il cuore intelligente dell'app non si basa su dati grezzi, ma su una pipeline in
 * Dispositivo fisico Android (Consigliato per testare la fotocamera) o Emulatore con camera virtuale.
 
 ### Istruzioni
-1. Scaricare i dati da questa cartella drive: [PM_Project](https://drive.google.com/drive/folders/1BPkDebmRsbw67XzLymogdLD5ziEt0lkH?usp=sharing). Nella cartella è presente il dataset utilizzato per il training (*dataset_auto*) e le immagini delle auto per la scheda auto (*drawable*). Il contenuto di quest'ultima dev'essere incollato in *CarSpotter\app\src\main\res\drawable*
+1. Scaricare i dati da questa cartella drive: [PM_Project](https://drive.google.com/drive/folders/1BPkDebmRsbw67XzLymogdLD5ziEt0lkH?usp=sharing). Nella cartella è presente il dataset utilizzato per il training (*dataset_auto*) e le immagini delle auto per la scheda auto (*drawable*). Il contenuto di quest'ultima dev'essere incollato in *CarSpotter\app\src\main\res\drawable*. In essa sono inoltre presenti i grafici relativi all'EDA.
 2. Clonare il repository:
     ```bash
     git clone [https://github.com/gammic/CarSpotter_AI.git](https://github.com/gammic/CarSpotter_AI.git)
