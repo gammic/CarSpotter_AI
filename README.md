@@ -96,8 +96,6 @@ Il cuore intelligente dell'app non si basa su dati grezzi, ma su una pipeline in
 **Nota sui Permessi**: Al primo avvio, l'app richiederà il permesso per l'uso della fotocamera. È necessario concederlo per utilizzare le funzionalità di riconoscimento.
 
 ## 📸 Screenshots
-
-Homepage,Scheda Auto,Dark Mode,Confronto
 <img src="docs/home.jpeg" width="200"/>, <img src="docs/scheda_auto.jpeg" width="200"/>,<img src="docs/dark_mode.jpeg" width="200"/>,<img src="docs/confronto.jpeg" width="200"/>
 
 ## 👤 Autore
