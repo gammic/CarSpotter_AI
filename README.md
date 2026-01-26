@@ -56,7 +56,7 @@ Progetto_CarSpotter/
 
 Il cuore intelligente dell'app non si basa su dati grezzi, ma su una pipeline ingegnerizzata:
 
-1. **Analisi** (*an.py* e *eda.py*): Filtraggio attributi e marchi, studio preliminare della cardinalità degli attributi (carburante, trasmissione) e identificazione anomalie.
+1. **Analisi** (*first_analysis.py* e *eda.py*): Filtraggio attributi e marchi, studio preliminare della cardinalità degli attributi (carburante, trasmissione) e identificazione anomalie.
 
 2. **Cleaning** (*cleaner.py*):
 
