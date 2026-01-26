@@ -1,0 +1,13 @@
+<resources>
+    <color name="my_background">#121212</color>
+    <color name="my_card_background">#1E1E1E</color>
+    <color name="my_text_primary">#E0E0E0</color>
+    <color name="my_text_secondary">#B0B0B0</color>
+
+    <color name="my_primary">#5381FF</color>
+    <color name="my_accent">#FFB74D</color>
+    <color name="my_success">#66BB6A</color>
+    <color name="my_surface_variant">#2C2C2C</color>
+
+    <color name="my_divider">#424242</color>
+</resources>

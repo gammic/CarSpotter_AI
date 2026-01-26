@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical"
+    android:background="@color/my_card_background">
+
+    <TextView
+        android:id="@+id/txtValueA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="-"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/my_text_primary"/>
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Label"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textColor="@color/my_text_primary"/>
+
+    <TextView
+        android:id="@+id/txtValueB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="-"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/my_text_primary"/>
+</LinearLayout>
