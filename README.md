@@ -9,7 +9,7 @@
 ## ✨ Funzionalità Principali
 
 * 🔍 **Riconoscimento AI Real-Time:** Identificazione del modello dell'auto tramite rete neurale **MobileNetV2** (TensorFlow Lite) eseguita direttamente sul dispositivo (Edge Computing).
-* 📊 **Schede Tecniche Dettagliate:** Visualizzazione di specifiche complete (Cavalli, Coppia, Dimensioni, Consumi) recuperate da un database locale ottimizzato.
+* 📊 **Schede Tecniche Dettagliate:** Visualizzazione di specifiche complete (Cavalli, Coppia, Dimensioni, Prestazioni) recuperate da un database locale ottimizzato.
 * ⚔️ **Confronto Intelligente:** Modalità "Versus" per confrontare due veicoli con evidenziazione cromatica dinamica (Verde/Rosso) basata sulla logica "Better-is-Higher" o "Better-is-Lower".
 * 📂 **Il Mio Garage:** Sistema di persistenza locale che permette all'utente di salvare le auto scansionate, memorizzando la foto originale scattata e la data di avvistamento.
 * 🌙 **Supporto Dark Mode:** Interfaccia utente moderna (Material Design) con gestione semantica dei colori per una perfetta visibilità sia di giorno che di notte.
