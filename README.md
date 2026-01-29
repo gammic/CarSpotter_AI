@@ -8,7 +8,7 @@
 
 ## ✨ Funzionalità Principali
 
-* 🔍 **Riconoscimento AI Real-Time:** Identificazione del modello dell'auto tramite rete neurale **MobileNetV2** (TensorFlow Lite) eseguita direttamente sul dispositivo (Edge Computing).
+* 🔍 **Riconoscimento AI Real-Time:** Identificazione del modello dell'auto tramite rete neurale **EfficientNetB0** (TensorFlow Lite) eseguita direttamente sul dispositivo (Edge Computing).
 * 📊 **Schede Tecniche Dettagliate:** Visualizzazione di specifiche complete (Cavalli, Coppia, Dimensioni, Prestazioni) recuperate da un database locale ottimizzato.
 * ⚔️ **Confronto Intelligente:** Modalità "Versus" per confrontare due veicoli con evidenziazione cromatica dinamica (Verde/Rosso) basata sulla logica "Better-is-Higher" o "Better-is-Lower".
 * 📂 **Il Mio Garage:** Sistema di persistenza locale che permette all'utente di salvare le auto scansionate, memorizzando la foto originale scattata e la data di avvistamento.
@@ -27,7 +27,7 @@
 
 ### 🧠 Data Science & AI (Python)
 * **Preprocessing Pipeline:** Script Python (`pandas`) per ETL (Extract, Transform, Load) dei dati grezzi.
-* **Model Training:** **TensorFlow/Keras** con tecnica di Transfer Learning su MobileNetV2.
+* **Model Training:** **TensorFlow/Keras** con tecnica di Transfer Learning su EfficientNetB0.
 * **Analisi Dati:** EDA (Exploratory Data Analysis) per studio distribuzione classi e pulizia dataset.
 
 ---
@@ -67,7 +67,7 @@ Il cuore intelligente dell'app non si basa su dati grezzi, ma su una pipeline in
 
 3. **Training** (*Car_Recognition_Model.ipynb*):
 
-    * Modello base: **MobileNetV2** (pre-addestrato su ImageNet).
+    * Modello base: **EfficientNetB0** (pre-addestrato su ImageNet).
     * Strategia: **Feature Extraction** (per massimizzare la generalizzazione su dataset ridotti ed evitare overfitting da fine-tuning aggressivo).
     * Ottimizzazione: Quantizzazione del modello *.tflite* per ridurre latenza e dimensione.
 
