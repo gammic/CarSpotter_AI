@@ -5,6 +5,7 @@ import android.graphics.Bitmap
 import org.tensorflow.lite.DataType
 import org.tensorflow.lite.Interpreter
 import org.tensorflow.lite.support.common.FileUtil
+import org.tensorflow.lite.support.common.ops.CastOp
 import org.tensorflow.lite.support.common.ops.NormalizeOp
 import org.tensorflow.lite.support.image.ImageProcessor
 import org.tensorflow.lite.support.image.TensorImage
@@ -49,7 +50,7 @@ class CarClassifier(private val context: Context) {
         // Pre-processing: ridimensionamento e normalizzazione (-1 a 1)
         val imageProcessor = ImageProcessor.Builder()
             .add(ResizeOp(INPUT_SIZE, INPUT_SIZE, ResizeOp.ResizeMethod.BILINEAR))
-            .add(NormalizeOp(NORM_MEAN, NORM_STD))
+            .add(CastOp(DataType.FLOAT32))
             .build()
 
         var tensorImage = TensorImage(DataType.FLOAT32)
