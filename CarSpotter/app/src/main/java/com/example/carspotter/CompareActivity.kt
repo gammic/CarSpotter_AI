@@ -75,13 +75,17 @@ class CompareActivity : AppCompatActivity() {
         setupRow(R.id.rowSpeed, "Vel. Max", carA.topSpeed, carB.topSpeed, "km/h", HIGHER_BETTER)
         setupRow(R.id.rowAccel, "0-100", carA.acceleration, carB.acceleration, "s", LOWER_BETTER)
 
-        // Motore e Dimensioni
+        // Motore
         setupRow(R.id.rowCapacity, "Cilindrata", carA.engineCapacity, carB.engineCapacity, "cc", HIGHER_BETTER)
+        setupRow(R.id.rowCylinders, "Cilindri", carA.cylinders, carB.cylinders, "", NEUTRAL)
+        setupRow(R.id.rowFuel, "Carburante", carA.fuel, carB.fuel, "", NEUTRAL)
+        setupRow(R.id.rowTurbo, "Turbo", carA.turbo, carB.turbo, "", NEUTRAL)
+
+
+        // Telaio e Dimensioni
+        setupRow(R.id.rowDrive, "Trazione", carA.driveWheels, carB.driveWheels, "", NEUTRAL)
         setupRow(R.id.rowWeight, "Peso", carA.weight, carB.weight, "kg", LOWER_BETTER)
         setupRow(R.id.rowLength, "Lunghezza", carA.length, carB.length, "mm", LOWER_BETTER)
-
-        // Dati testuali
-        setupRow(R.id.rowFuel, "Carburante", carA.fuel, carB.fuel, "", NEUTRAL)
         setupRow(R.id.rowTrans, "Cambio", carA.transmission, carB.transmission, "", NEUTRAL)
     }
 
